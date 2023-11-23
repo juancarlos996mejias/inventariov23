@@ -30,7 +30,8 @@
                 <a class="navbar-brand" href="{{ url('/') }}">
 
                     <img src="/img/logoBlue.png" class="img-fluid" width="60" height="54" id="logoBlue">
-                    {{ config('app.name', 'TUCSON') }}
+                    <div class="text-white">  {{ config('app.name', 'TUCSON') }}</div>
+                  
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                     <span class="navbar-toggler-icon"></span>

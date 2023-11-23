@@ -63,7 +63,7 @@ return [
     |
     */
 
-    'logo' => '<b>Tucson</b>Job',
+    'logo' => '<b>Tucson</b>V23',
     'logo_img' => 'vendor/adminlte/dist/img/LogoBlue.png',
     'logo_img_class' => 'brand-image img-circle elevation-3',
     'logo_img_xl' => null,
@@ -312,7 +312,7 @@ return [
             'can'  => 'manage-blog',
         ],
         [
-            'text'        => 'pages',
+            'text'        => 'Paginas',
             'url'         => 'admin/pages',
             'icon'        => 'far fa-fw fa-file',
             'label'       => 4,
@@ -325,13 +325,13 @@ return [
             'icon' => 'fas fa-fw fa-user',
         ],
         [
-            'text' => 'Cambio_password',
+            'text' => 'Cambio_clave',
             'url'  => 'admin/settings',
             'icon' => 'fas fa-fw fa-lock',
         ],
         [
             'text'    => 'Menu',
-            'icon'    => 'fas fa-fw fa-share',
+            'icon'    => 'fa fa-bars',
             'submenu' => [
                 [
                     'text' => 'Pañol',
@@ -383,9 +383,9 @@ return [
                     ],
                 ],
                 [
-                    'text' => 'Inventario',
+                    'text' =>  'Griferia',
                     'url'  => '#',
-                    'icon' => 'fas fa-boxes stacked',
+                    'icon' => 'fas fa-faucet',
                     'submenu' => [
                         [
                             'text' => 'Toma de Inventario',
