@@ -49,7 +49,7 @@
     <img src="/img/pañol.png" alt="" width="60" height="54">
     <h6 class="card-subtitle mb-2 text-muted"></h6>
     <br>
-   <a href="panol" class="card-link"><p class="card-text text-center">PAÑOL</p></a>
+   <a href="/panols" class="card-link"><p class="card-text text-center">PAÑOL</p></a>
   </div>
 </div>
 
@@ -59,7 +59,7 @@
     <img src="/img/inventario.png" alt="" width="60" height="54">
     <h6 class="card-subtitle mb-2 text-muted"></h6>
     <br>
-    <a href="{{ route('product') }}" class="card-link"><p class="card-text text-center">PRODUCTOS</p></a>
+    <a href="/products" class="card-link"><p class="card-text text-center">PRODUCTOS</p></a>
   </div>
 </div>
 </div>
@@ -82,7 +82,7 @@
     <img src="/img/griferia.png" alt="" width="60" height="54">
     <h6 class="card-subtitle mb-2 text-muted"></h6>
     <br>
-    <a href="panol" class="card-link"><p class="card-text text-center">GRIFERIA</p></a>
+    <a href="/griferia"class="card-link"><p class="card-text text-center">GRIFERIA</p></a>
   </div>
 </div>
 

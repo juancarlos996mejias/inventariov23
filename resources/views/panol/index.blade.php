@@ -34,6 +34,7 @@
                             <table class="table table-striped table-hover">
                                 <thead class="thead">
                                     <tr>
+                                    <th>Id</th>
                                         <th>Fecha</th>
 										<th>Código</th>
 										<th>Articulo</th>
