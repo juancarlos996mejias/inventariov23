@@ -5,7 +5,7 @@
 @endsection
 
 @section('content')
-    <div class="container-fluid">
+    <div class="container-fluid ">
         <div class="row">
             <div class="col-sm-12">
                 <div class="card">
@@ -13,7 +13,7 @@
                         <div style="display: flex; justify-content: space-between; align-items: center;">
 
                             <span id="card_title">
-                                {{ __('Productos') }}
+                                {{ __('Productos / Pañol') }}
                             </span>
 
                              <div class="float-right">
@@ -29,8 +29,8 @@
                         </div>
                     @endif
 
-                    <div class="card-body">
-                        <div class="table-responsive">
+                    <div class="card-body ">
+                        <div class="table-responsive text-center">
                             <table class="table table-striped table-hover">
                                 <thead class="thead">
                                     <tr>
@@ -57,11 +57,11 @@
 
                                             <td>
                                                 <form action="{{ route('panols.destroy',$panol->id) }}" method="POST">
-                                                    <a class="btn btn-sm btn-primary " href="{{ route('panols.show',$panol->id) }}"><i class="fa fa-fw fa-eye"></i> {{ __('Show') }}</a>
-                                                    <a class="btn btn-sm btn-success" href="{{ route('panols.edit',$panol->id) }}"><i class="fa fa-fw fa-edit"></i> {{ __('Edit') }}</a>
+                                                    <a class="btn btn-sm btn-primary " href="{{ route('panols.show',$panol->id) }}"><i class="fa fa-fw fa-eye"></i> {{ __('') }}</a>
+                                                    <a class="btn btn-sm btn-success" href="{{ route('panols.edit',$panol->id) }}"><i class="fa fa-fw fa-edit"></i> {{ __('') }}</a>
                                                     @csrf
                                                     @method('DELETE')
-                                                    <button type="submit" class="btn btn-danger btn-sm"><i class="fa fa-fw fa-trash"></i> {{ __('Delete') }}</button>
+                                                    <button type="submit" class="btn btn-danger btn-sm"><i class="fa fa-fw fa-trash"></i> {{ __('') }}</button>
                                                 </form>
                                             </td>
                                         </tr>

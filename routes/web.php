@@ -3,6 +3,8 @@
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\ProductController;
 use App\Http\Controllers\PanolController;
+use App\Http\Controllers\GriferiaController;
+use App\Http\Controllers\DashboardController;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Auth;
 
@@ -32,7 +34,18 @@ Auth::routes();
 Route::resource('panols',PanolController::class);
 Auth::routes();
 
+Route::resource('panols',PanolController::class);
+Auth::routes();
+
+Route::resource('griferia',GriferiaController::class);
+Auth::routes();
+
+
+
 Route::get('/home', [HomeController::class, 'index'])->name('home');
+Route::get('/dashboard', [DashboardController::class, 'index'])->name('dashboard');
+
+
 
 
 

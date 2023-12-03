@@ -29,7 +29,7 @@
             @if (Route::has('login'))
             <div class="sm:fixed sm:top-0 sm:right-0 p-6 text-right z-10">
                 @auth
-                <a href="/home" class="home"><img src="/img/homeColor.png" alt=""></a>
+                <a href="{{ route('home') }}" class="home"><img src="/img/homeColor.png" alt=""></a>
                 @else
                 <a href="{{ route('login') }}" class="login"><img src="/img/login.png" alt=""></a>
 
