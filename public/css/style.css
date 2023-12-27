@@ -61,6 +61,14 @@ height:27px;
 height: 40px;
 }
 
+#navbarDropdown{
+    color:white;
+}
+
+.dropdown-toggle{
+    color:white; 
+}
+
 
 
 

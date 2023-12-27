@@ -1,11 +1,13 @@
-@extends('layouts.app')
+
+@extends('adminlte::page')
 
 @section('template_title')
     Product
 @endsection
 
 @section('content')
-    <div class="container-fluid ">
+<br>
+    <div class="container-fluid mt-4">
         <div class="row">
             <div class="col-sm-12">
                 <div class="card">
@@ -29,17 +31,18 @@
                         </div>
                     @endif
 
-                    <div class="card-body ">
-                        <div class="table-responsive text-center">
-                            <table class="table table-striped table-hover">
-                                <thead class="thead">
+                    <div class="card-body">
+                        <div class="table-responsive text-center ">
+                            <table class="table table-striped table-hover ">
+                                <thead class="thead thead-dark">
                                     <tr>
                                     <th>Id</th>
                                         <th>Fecha</th>
 										<th>Código</th>
-										<th>Articulo</th>
+										<th>Artículo</th>
 										<th>Marca</th>
 										<th>Cantidad</th>
+                                        <th>Acción</th>
 
                                         <th></th>
                                     </tr>
@@ -66,13 +69,17 @@
                                             </td>
                                         </tr>
                                     @endforeach
+                                    
                                 </tbody>
                             </table>
                         </div>
                     </div>
                 </div>
+                <div class="d-flex justify-content-end">
                 {!! $panols->links() !!}
+                </div>
             </div>
         </div>
     </div>
+    
 @endsection

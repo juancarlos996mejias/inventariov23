@@ -80,6 +80,6 @@ class PanolController extends Controller
     public function destroy(string $id)
     {
         return redirect()->route('panols.index')
-        ->with('success', 'Product deleted successfully');
+        ->with('success', 'Eliminado exitosamente');
     }
 }

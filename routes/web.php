@@ -34,8 +34,6 @@ Auth::routes();
 Route::resource('panols',PanolController::class);
 Auth::routes();
 
-Route::resource('panols',PanolController::class);
-Auth::routes();
 
 Route::resource('griferia',GriferiaController::class);
 Auth::routes();
@@ -44,6 +42,7 @@ Auth::routes();
 
 Route::get('/home', [HomeController::class, 'index'])->name('home');
 Route::get('/dashboard', [DashboardController::class, 'index'])->name('dashboard');
+Route::get('/griferia', [GriferiaController::class, 'index'])->name('griferia');
 
 
 

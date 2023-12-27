@@ -9,9 +9,9 @@
             <br>
             <div class="card">
                 
-                <div class="card-header">{{ __('Bienvenido') }}</div>
+                <div class="card-header ">{{ __('Bienvenido') }}</div>
 
-                <div class="card-body">
+                <div class="card-body bg-success">
                     @if (session('status'))
                     
                     <div class="alert alert-success" role="alert">

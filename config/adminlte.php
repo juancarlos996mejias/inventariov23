@@ -216,7 +216,7 @@ return [
     'sidebar_collapse_remember' => false,
     'sidebar_collapse_remember_no_transition' => true,
     'sidebar_scrollbar_theme' => 'os-theme-light',
-    'sidebar_scrollbar_auto_hide' => 'l',
+    'sidebar_scrollbar_auto_hide' => '1',
     'sidebar_nav_accordion' => true,
     'sidebar_nav_animation_speed' => 300,
 
@@ -333,9 +333,16 @@ return [
             'text'    => 'Menu',
             'icon'    => 'fa fa-bars',
             'submenu' => [
+
+                [
+                    'text' => 'Home',
+                    'url'  => 'home',
+                    'icon' => 'fa fa-sitemap',
+                    
+                ],
                 [
                     'text' => 'Pañol',
-                    'url'  => '#',
+                    'url'  => 'panols',
                     'icon' => 'fas fa-store',
                 ],
                 [
@@ -347,7 +354,8 @@ return [
                 [
                     'text' => 'Operaciones',
                     'url'  => '#',
-                    'icon' => 'fa fa-sitemap',
+                    'icon' => 'gear.png',
+                    
                     
                 ],
                 [
@@ -358,17 +366,17 @@ return [
                 ],
                 [
                     'text'    => 'Productos',
-                    'url'     => '#',
+                    'url'     => 'products',
                     'icon' => 'fas fa-shapes',
                     
                     'submenu' => [
                         [
                             'text' => 'level_two',
-                            'url'  => '#',
+                            'url'  => 'products',
                         ],
                         [
                             'text'    => 'level_two',
-                            'url'     => '#',
+                            'url'     => 'products.create',
                             'submenu' => [
                                 [
                                     'text' => 'level_three',
@@ -384,7 +392,7 @@ return [
                 ],
                 [
                     'text' =>  'Griferia',
-                    'url'  => '#',
+                    'url'  => 'griferia',
                     'icon' => 'fas fa-faucet',
                     'submenu' => [
                         [

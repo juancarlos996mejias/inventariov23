@@ -78,7 +78,7 @@
 
 
 
-<canvas id="mychart" width="400" height="400"></canvas>
+
 
 @endsection
 
@@ -90,6 +90,7 @@
 
 @section('js')
 
+<canvas id="mychart" width="400" height="400"></canvas>
 
 <script>
 
