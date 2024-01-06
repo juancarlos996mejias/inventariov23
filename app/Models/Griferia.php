@@ -12,8 +12,6 @@ class Griferia extends Model
     'codigo' => 'required',
     'articulo' => 'required',
     'marca' => 'required',
-    'super_rubro' => 'required',
-    'rubro' => 'required',
     'stock_total' => 'required',
     'almacen_talar' => 'required',
     'almacen_outlet' => 'required',
@@ -21,7 +19,7 @@ class Griferia extends Model
 
   ];
 
-  protected $table = 'griferia';
+  protected $table = 'griferias';
 
   /**
    * Attributes that should be mass-assignable.

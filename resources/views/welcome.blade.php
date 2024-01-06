@@ -31,10 +31,10 @@
                 @auth
                 <a href="{{ route('home') }}" class="home"><img src="/img/homeColor.png" alt=""></a>
                 @else
-                <a href="{{ route('login') }}" class="login"><img src="/img/login.png" alt=""></a>
+                <a href="{{ route('login') }}" class="login"><img src="/img/unlock.png" alt=""></a>
 
                 @if (Route::has('register'))
-                <a href="{{ route('register') }}" class="registro"><img src="/img/register.png" alt=""></a>
+                <a href="{{ route('register') }}" class="registro"><img src="/img/registers.png" alt=""></a>
                 @endif
                 @endauth
             </div>
